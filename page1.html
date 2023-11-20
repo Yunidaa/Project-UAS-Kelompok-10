@@ -1,81 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gurlsgoals</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-        header {
-            background-color: #f8f8f8;
-            padding: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+.navbar {
+    background-color: #f8f8f8;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0);
+    position: fixed;
+    width: 100%; 
+}
 
-        #logo {
-            font-size: 24px;
-            font-weight: bold;
-            color: #333;
-        }
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    padding-left: 50px;
+}
 
-        #login-btn, #signup-btn {
-            background-color: #ff69b4;
-            color: #fff;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-left: 10px;
-        }
+#login-btn{
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: transparent;
+    margin-right: 10px;
+}
+#signup-btn {
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: transparent;
+    margin-right: 40px;
+}
 
-        #calendar-btn {
-            font-size: 20px;
-            cursor: pointer;
-        }
+#calendar-btn {
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+}
 
-        .page1 {
-            color: #333;
-            padding: 250px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-image: url('bg.jpeg'); /* Ganti dengan URL gambar latar belakang dari perangkat Anda */
-        }
+.page1 {
+    color: black;
+    height: 100vh;
+    background-image: url('bg.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-position: initial;
+    display: flex;
+    align-items: center;
+}
 
-        #description {
-            max-width: 60%;
-        }
-    </style>
-</head>
-<body>
+#description {
+    max-width: 100%;
+    margin: 0 auto; 
+    margin-left: 60px;
+}
 
-    <header>
-        <div id="logo">Gurlsgoals</div>
-        <div>
-            <button id="calendar-btn">📅</button>
-            <button id="login-btn">Log In</button>
-            <button id="signup-btn">Sign Up</button>
-        </div>
-    </header>
-
-    <div class="page1">
-        <div id="description">
-            <h2>Welcome to Gurlsgoals!</h2>
-            <p>Halo pejuang diet! We're here to help you to get your body goals! Diet sehat dan teratur ^^</p>
-        </div>
-    </div>
-    
-    <!-- Your content goes here -->
-
-</body>
-</html>
+h1{
+    size: 50px;
+}
+p {
+    size: ;40px
+}
