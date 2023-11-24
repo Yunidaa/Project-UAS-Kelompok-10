@@ -1,0 +1,191 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #f8f8f8;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0);
+    position: fixed;
+    width: 100%;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    padding-left: 50px;
+}
+
+#signin-btn{
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+#signup-btn {
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: transparent;
+    margin-right: 40px;
+}
+
+#calendar-btn {
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+}
+
+.page1 {
+    color: black;
+    height: 100vh;
+    background-image: url('bg.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-position: initial;
+    display: flex;
+    align-items: center;
+}
+
+#description {
+    max-width: 100%;
+    margin: 0 auto; 
+    margin-left: 60px;
+}
+
+.signin-box {
+    background-color: #F77BB6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px auto;
+}
+
+.signin-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-box h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.signin-box label {
+    margin-top: 10px;
+    color: white;
+}
+
+.signin-box input {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.signin-box .forgot-password {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.signin-box .forgot-password a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.signin-box button {
+    background-color: #007BFF;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.signin-box .no-account {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.signin-box .no-account a {
+    color: white;
+    text-decoration: none;
+}
+
+.signup-box {
+    background-color: #F77BB6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px auto;
+}
+
+.signup-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-box h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.signup-box label {
+    margin-top: 10px;
+    color: white;
+}
+
+.signup-box input {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.signup-box .forgot-password {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.signup-box .forgot-password a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.signup-box button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.signup-box .no-account {
+    text-align: center;
+    margin-top: 20px;
+    color: #F77BB6;
+}
+
+.signup-box .no-account a {
+    color: #007BFF;
+    text-decoration: none;
+}
